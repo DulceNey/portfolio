@@ -23,7 +23,7 @@ export const DarkModeSwitch = () => {
   };
 
   return (
-    <button className="bg-sky-400 dark:bg-gray-600 p-4 rounded-2xl" onClick={handleThemeSwitch}>
+    <button className="bg-sky-400 dark:bg-gray-600 p-1 rounded-2xl" onClick={handleThemeSwitch}>
         Dark Mode
       </button>
   )
